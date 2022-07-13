@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- adapted coding with google, W3 and youtube to help me do this website-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>O_o Weather Dashboard O_^</title>
+    <link rel="stylesheet" href="./assest/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />  
+    <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+    rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/5e5983136f.js" crossorigin="anonymous"></script>
+   </head>
+    <!-- Linking BoxIcon for Icon -->
+    <link
+      href="https://www.unpkg.com/browse/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="mainContainer ">
+      <!-- Weather cards-->
+      <div class="forecastContainer">
+        <div class="timeDtContainer">
+          <div class="currentTime"></div>
+          <div class="dayAndDt"></div>
+          <!-- good morning, afternoon or evening -->
+          <div class="greeting"></div>
+        </div>
+        <!-- <span class="forecastTitle" class="hidden"></span> -->
+        <div class="mainWeatherCards" id="dailyForecast"></div>
+      </div>
+      
+      <div class="weatherContainer">
+        <!-- center the card info in the box -->
+        <div class="centerCard">
+          <form id="searchForm">
+            <input type="text" class="form-control" id="searchText" placeholder=" Search City ...">
+            <button class="searchBtn">Search</button>
+          </form>
+          <!-- display current weather, for searched city -->
+          <div class="cityWeatherContainer">
+            <div class="cityNameContainer">
+              <div class="cityName"></div>
+            </div>
+            <!-- Display weather info -->
+            <div class="weatherInfo">
+              <div class="todayDate"></div>
+              <div class="description"></div>
+              <img src="" alt="weather icon" class="weatherIcon">
+              <div class="displayTemp"></div>
+              <span class="feelsLike"></span>
+              <div class="flex-humidUV">
+                <div class="humid"></div>
+                <div class="UVIndex"></div>
+              </div>
+              <!-- <div class="flex-cloudVisibility">
+                <div class="clouds"></div>
+                <div class="visibility"></div> -->
+                <!-- <div class="sunset"></div> -->
+              </div>
+            </div>
+          </div>
+          <div class="historyContainer" id="displayHist"></div>
+        </div>
+
+      </div>
+
+
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+  </body>
+
+  <!-- <footer>
+    This application was created by many of my Orange County colleagues, and UCI TA's and colleagues © 2022 All rights reserved.
+    Thank you everyone who has contributed to this homework
+</footer> -->
+
+</html>
