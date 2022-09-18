@@ -14,8 +14,8 @@ you cannot click on a phone but enter on your keyboard your phone displays.
 
 How to make sure my api was retriving data correctly via my fetch fuctions.
 
-*I had to make sure both api fectch city data and weather data fuctions were responding to their fetch commands.
-One I was able to do that i implemented the refersh fection to let the user select another city.
+*I had to make sure both API fetch city data and weather data functions were responding to their fetch commands.
+One I was able to do that I implemented the refresh function to let the user select another city.
 
 * I use some the icons for changing according to the weather temp.
 
@@ -32,4 +32,4 @@ These are the links I used for my website as follow:
 
 * "https://kiira2125.github.io/HW6-LK//"
 
-![screenshot](assest/weatherapp.JPG)
+[!screenshot](.//assest/Screenshot%202022-07-12%20191219.png)
